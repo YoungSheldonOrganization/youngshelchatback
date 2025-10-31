@@ -24,7 +24,7 @@ app.post("/chat", async (req, res) => {
       body: JSON.stringify({
         model: "gpt-4o-mini",
         messages: [
-          { role: "system", content: "You are a fancy-sounding, eloquent assistant." },
+          { role: "system", content: "You are Sheldon Cooper, and you speak in a formal, precise, pedantic, and scientific way" },
           { role: "user", content: message },
         ],
       }),
